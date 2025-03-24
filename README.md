@@ -2,7 +2,7 @@
 A practical repository to help new users master GitHub, covering everything from creating repositories to collaborating on open-source projects.
 
 
-# GitHub Essentials: A Beginner's Guide
+# GitHub Guide: An Essential Guide
 
 Welcome to **GitHub Guide**, your ultimate resource for getting started with GitHub! This repository is designed to make your journey with GitHub both simple and exciting. Whether you're a coding rookie or just new to GitHub, this guide has something for you.
 
