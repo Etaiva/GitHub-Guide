@@ -1,0 +1,122 @@
+
+**Actions / GitHub Actions.** Automated workflows triggered by events such as code pushes or pull requests, enabling automated testing, building, and deployment.
+
+**Assignee.** The individual responsible for working on or resolving a specific issue or pull request.
+
+**Blame.** A feature that displays who last modified each line of a file, useful for tracing the origin of changes or bugs.
+
+**Branch.** A parallel version of a repository used to develop features or fixes without affecting the main codebase.
+
+**Branch Protection.** Rules configured to restrict who can push or merge changes to critical branches to maintain code integrity.
+
+**Clone.** A local copy of a remote repository downloaded to a developer’s machine for offline work.
+
+**Commit.** A snapshot of changes to files in a repository recorded with a unique identifier (SHA), author, and descriptive message.
+
+**Commit SHA.** A unique 40-character hash that identifies a specific commit in the Git history.
+
+**Code.** The source files, scripts, and assets that constitute a software project.
+
+**Code Spaces.** Cloud-hosted development environments that allow developers to code, build, and debug directly in a browser.
+
+**Default Branch.** The repository’s main branch, such as ‘main’ or ‘master’, where pull requests and commits are targeted by default.
+
+**Detached HEAD.** A Git state where the working directory points directly to a specific commit rather than a branch.
+
+**Deploy Key.** An SSH key associated with a repository to grant automated systems access without using personal credentials.
+
+**Discussion.** Forum-style conversations in a repository for community Q&A, brainstorming, and open-ended dialogue.
+
+**Enterprise.** GitHub’s service tier designed for organizations requiring enhanced security, compliance, and control features.
+
+**Fork.** A personal copy of someone else's repository for independent development and contributions.
+
+**Gists.** Small sharable snippets or single-file scripts published publicly or privately.
+
+**HEAD.** The current active commit in the working directory, typically the tip of the checked-out branch.
+
+**Insights.** Analytics and reports about repository activity, contributions, and traffic.
+
+**Issue.** Tickets used to track bugs, features, tasks, or questions related to a repository.
+
+**Label.** Colored tags added to issues or pull requests to categorize and prioritize them.
+
+**Marketplace.** A platform offering third-party tools and apps that extend GitHub repository capabilities.
+
+**Merge.** The process of integrating changes from one branch into another, often via pull requests.
+
+**Milestone.** A collection of related issues and pull requests grouped toward achieving a project goal or release.
+
+**New Issue.** The creation of a ticket for a bug, feature request, or task within a repository.
+
+**Organization.** A shared GitHub account representing teams or companies to manage multiple repositories and users.
+
+**Pull.** Fetching and merging code changes from a remote repository into your local branch.
+
+**Pull Request (PR).** A request to merge code changes from one branch or fork into another branch, enabling review and discussion.
+
+**Push.** Uploading local commits to a remote repository on GitHub.
+
+**README File.** A markdown file that introduces the project, explaining its purpose, setup, and usage.
+
+**Rebase.** Moving or applying commits from one base branch to another to maintain a clean, linear history.
+
+**Repository (Repo).** A storage location that holds project files, commit history, issues, pull requests, and collaboration data.
+
+**Remote.** The version of a repository hosted on a server, such as GitHub, which local copies synchronize with.
+
+**Secret Scanning.** Automated detection of sensitive information like API keys accidentally committed to a repository.
+
+**Security Features.** Tools such as Dependabot alerts, secret scanning, branch protection, and code scanning aimed at improving repository security.
+
+**Security Policy.** Documentation outlining how to report and manage security vulnerabilities within a project.
+
+**Sponsor.** An individual or organization providing financial support to developers or projects via GitHub.
+
+**Star.** A bookmark or endorsement that indicates interest in a repository.
+
+**Status Checks.** Automated tests or processes that evaluate commits in pull requests before they can be merged.
+
+**Stash.** Temporarily saves uncommitted changes so a developer can switch contexts without committing.
+
+**Tag.** A label marking specific commits, often used to indicate releases.
+
+**Team.** A group within an organization with defined permissions to access repositories.
+
+**Timeline.** A chronological record of events and actions in an issue, pull request, or user activity stream.
+
+**Topic Branch.** A branch used to develop a specific feature or fix, typically short-lived.
+
+**Topics.** Tags added to repositories to facilitate discovery and organization on GitHub.
+
+**Traffic.** Statistics showing visits, clones, and referral sources related to a repository.
+
+**Transfer.** Moving repository ownership from one user or organization to another.
+
+**Upstream.** The primary repository or branch from which changes are pulled; opposite of downstream.
+
+**User.** An individual registered on GitHub with a personal account.
+
+**Username.** A unique identifier for a GitHub user.
+
+**Watch.** Subscribing to notifications about activity in a repository or issue.
+
+**Webhook.** A way for GitHub repositories to send real-time event payloads to external services.
+
+**Wiki.** A collaborative documentation space attached to a repository for notes, manuals, or guides.
+
+**Workflow.** A defined set of automated jobs and steps in GitHub Actions for processes like build, test, or deploy.
+
+***
+
+This glossary is structured for readability and practical use in training or documentation. If you prefer, I can provide it as a formatted PDF, Word document, or Markdown file with additional styling or examples. Just let me know!
+
+[1](https://docs.github.com/articles/github-glossary)
+[2](https://www.coredna.com/blogs/what-is-git-and-github-part-two)
+[3](https://git-scm.com/docs/gitglossary)
+[4](https://www.pluralsight.com/resources/blog/cloud/git-terms-explained)
+[5](https://moldstud.com/articles/p-github-terminology-quick-guide-15-essential-terms-every-developer-must-know)
+[6](https://blog.mergify.com/git-and-github-terminology-a-complete-glossary/)
+[7](https://github.com/dwyl/technical-glossary)
+[8](https://www.reddit.com/r/github/comments/qrkzcx/could_someone_explain_how_github_works_in/)
+[9](https://docs.gitguardian.com/platform/glossary)
