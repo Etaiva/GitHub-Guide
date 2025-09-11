@@ -1,0 +1,129 @@
+# 🔐 GitHub Repository Security & Access Control Guide
+
+## Section 1: Securing Your GitHub Repositories
+
+### ✅ Account-Level Security
+- **Enable Two-Factor Authentication (2FA)**  
+  Navigate to `Settings > Security > Two-factor authentication`. Use an authenticator app or SMS.
+- **Use a strong, unique password**  
+  Avoid reuse across platforms. Consider a password manager.
+
+---
+
+### ✅ Access Control
+- **Limit collaborator permissions**  
+  Assign roles based on least privilege: `Read`, `Triage`, `Write`, `Maintain`, `Admin`.
+- **Use GitHub Organizations**  
+  For managing access across multiple repositories with teams and role-based controls.
+
+---
+
+### ✅ Branch Protection Rules
+- **Protect critical branches (e.g., `main`)**  
+  Go to `Settings > Branches > Add Rule` and enable:
+  - Require pull request reviews
+  - Require status checks
+  - Restrict who can push
+
+---
+
+### ✅ Secrets & Sensitive Data
+- **Never commit secrets (API keys, credentials)**  
+  Use `.env` files locally and GitHub Secrets for CI/CD.
+- **Enable secret scanning**  
+  Available for public repos and GitHub Advanced Security users.
+- **Audit with tools like `git-secrets` or `truffleHog`**  
+  Scan history before pushing.
+
+---
+
+### ✅ Dependency & Vulnerability Management
+- **Enable Dependabot alerts and updates**  
+  Automatically detect and patch vulnerable dependencies.
+- **Use the dependency graph**  
+  Helps visualize and audit third-party packages.
+
+---
+
+### ✅ Code Scanning & Security Policies
+- **Enable CodeQL or other scanning tools**  
+  Detect vulnerabilities in your codebase.
+- **Add a `SECURITY.md` file**  
+  Define how users should report vulnerabilities.
+
+---
+
+### ✅ Historical Hygiene
+- **Remove sensitive data from commit history**  
+  Use `git filter-repo` or `BFG Repo-Cleaner`.
+- **Review pull requests for exposed secrets**  
+  Automate with GitHub Actions or manual review.
+
+---
+
+## Section 2: Access Control & Collaborator Permissions
+
+### 🔹 Step-by-Step: Managing Access
+
+1. **Go to Repository Settings**
+   - Navigate to your repo → Click **Settings**
+
+2. **Manage Access**
+   - Click **Collaborators & teams** under the Access section
+
+3. **Assign Roles**
+   - Choose from:
+     - `Read` – view only
+     - `Triage` – manage issues and PRs
+     - `Write` – push code
+     - `Maintain` – manage repo settings
+     - `Admin` – full control
+
+4. **Invite Collaborators**
+   - Click **Add people** → Select role → Confirm
+
+5. **Use Branch Protection**
+   - Go to `Settings > Branches > Add Rule`
+   - Protect branches like `main`, `release/*`, etc.
+
+6. **Audit Access Regularly**
+   - Remove outdated users
+   - Use expiration dates for temporary access
+
+---
+
+## Section 3: Branch Name Patterns
+
+### 🔹 What Is a Branch Name Pattern?
+
+A **branch name pattern** lets you apply protection rules to multiple branches using wildcards.
+
+| Pattern       | Matches                                 | Notes                                      |
+|---------------|------------------------------------------|--------------------------------------------|
+| `*`           | All branches                             | Wildcard for any name (except `/`)         |
+| `release/*`   | `release/v1`, `release/hotfix`           | One level under `release/`                 |
+| `release/**`  | `release/v1.0/patch`, `release/dev/test` | Nested levels under `release/`             |
+| `qa/*`        | `qa/test`, `qa/dev`                      | One level under `qa/`                      |
+| `qa/**/*`     | `qa/foo/bar`, `qa/dev/test/patch`        | Multiple nested levels under `qa/`         |
+| `feature/*`   | `feature/login`, `feature/signup`        | Common for feature branches                |
+
+> 🔐 Use these patterns when setting branch protection rules to enforce consistent security policies across multiple branches.
+
+---
+
+## Section 4: Governance-Ready Enhancements
+
+- Map repo access to board-level risk controls
+- Document security policies in stakeholder-friendly language
+- Use GitHub’s audit logs for compliance tracking
+
+---
+
+## References
+
+- [GitHub Branch Protection Rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+- [GitHub Access Management](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository)
+- [GitHub Security Quickstart](https://docs.github.com/en/code-security/getting-started/quickstart-for-securing-your-repository)
+
+---
+
