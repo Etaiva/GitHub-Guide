@@ -1,0 +1,44 @@
+# 📝 How to Rename a File in a GitHub Repository
+
+This guide explains how to rename a file (including subfiles or nested files) in a GitHub repository using both the web interface and the command line.
+
+---
+
+## 🔹 Option 1: Rename via GitHub Web Interface
+
+### Steps:
+1. Navigate to the repository on GitHub.
+2. Browse to the file you want to rename.
+3. Click the file name to open it.
+4. In the top-right corner, click the **pencil icon** (Edit this file).
+5. In the filename field at the top, change the name of the file.
+6. Optionally, update the file contents.
+7. Scroll down and enter a **commit message**.
+8. Choose whether to commit directly to the branch or create a new branch.
+9. Click **Commit changes**.
+
+> ⚠️ Note: You must have write access to the repository to rename files directly.
+
+---
+
+## 🔹 Option 2: Rename Using Git Locally
+
+### Prerequisites:
+- Git installed
+- Access to the repository (via HTTPS or SSH)
+- Proper permissions
+
+### Steps:
+```bash
+# Clone the repository (if not already cloned)
+git clone https://github.com/your-org/your-repo.git
+cd your-repo
+
+# Rename the file
+git mv path/to/old-filename.ext path/to/new-filename.ext
+
+# Stage and commit the change
+git commit -m "Renamed file from old-filename.ext to new-filename.ext"
+
+# Push the change to GitHub
+git push origin main  # or your working branch
