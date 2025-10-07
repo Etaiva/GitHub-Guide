@@ -1,0 +1,37 @@
+**GitHub offers a range of achievement badges that highlight your contributions, collaboration, and community involvement.** These badges appear on your profile and are unlocked automatically as you engage with the platform.
+
+---
+
+### 🏅 GitHub Achievement Badges (2025)
+
+Here’s a curated list of current badges and how to earn them:
+
+| **Badge Name**            | **How to Earn It**                                                                 |
+|---------------------------|-------------------------------------------------------------------------------------|
+| **Pull Shark**            | Merge 2 or more pull requests                                                      |
+| **Quickdraw**             | Close an issue or pull request within 5 minutes of opening                         |
+| **Pair Extraordinaire**   | Co-author one or more merged pull requests                                         |
+| **Starstruck**            | Create a repository that earns 16+ stars (tiers: Bronze, Silver, Gold, etc.)       |
+| **Galaxy Brain**          | Have 2+ accepted answers in GitHub Discussions                                     |
+| **YOLO**                  | Merge a pull request without code review                                           |
+| **Public Sponsor**        | Sponsor open-source work via GitHub Sponsors                                       |
+| **Heart On Your Sleeve**  | React to something with a ❤️ emoji (currently experimental)                        |
+| **Open Sourcerer**        | Have PRs merged in multiple public repositories (currently experimental)           |
+| **Mars 2020 Contributor** | Contribute to repos used in NASA’s Mars 2020 Helicopter Mission (retired)          |
+| **Arctic Code Vault**     | Contribute to a repo included in GitHub’s 2020 Arctic Archive (retired)            |
+
+Some badges have **tiers** (e.g. Starstruck, Pull Shark, Galaxy Brain), which scale based on your activity level — from Bronze to Gold and beyond.
+
+---
+
+### 🎓 Bonus Highlights (Non-Achievement Badges)
+These aren’t earned through activity but reflect your status or affiliations:
+- **GitHub Pro** – Paid subscription
+- **Developer Program Member** – Registered GitHub developer
+- **Campus Expert** – Student community leader
+- **Security Bug Bounty Hunter** – Contributor to GitHub’s security programme
+- **Security Advisory Credit** – Credited for submitting accepted security advisories
+
+---
+
+Would you like a modular badge tracker scaffolded for your cybersecurity sprint repo? I can include emoji status indicators, tier goals, and links to GitHub actions that trigger each badge. Perfect for stakeholder visibility and personal motivation.
